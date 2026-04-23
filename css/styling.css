@@ -1,4 +1,4 @@
-:root {
+: root {
   --bg-dark: rgba(10, 10, 18, 0.88);
   --white-soft: rgba(255, 255, 255, 0.82);
   --white-border: rgba(255, 255, 255, 0.22);
@@ -127,14 +127,14 @@ img {
   transition: 0.3s ease;
 }
 
-.social-icons a:hover {
+.social-icons a: hover {
   color: var(--pink-strong);
   text-shadow: 0 0 12px var(--pink-strong);
 }
 
 /* Home */
 .hero-section {
-  background: url('/images/futuristic city.jpg') no-repeat center center / cover;
+  background: url('images/futuristic city.jpg') no-repeat center center / cover;
   display: flex;
   align-items: center;
   padding: 120px 60px 60px;
@@ -174,7 +174,7 @@ img {
 
 /* Portfolio */
 .portfolio-hero {
-  background: url('/images/serene nature.jpg') no-repeat center center / cover;
+  background: url('images/serene nature.jpg') no-repeat center center / cover;
   padding-top: 120px;
   padding-bottom: 80px;
 }
@@ -243,7 +243,6 @@ img {
   overflow: hidden;
 }
 
-.project-image-btn,
 .project-name-btn {
   display: flex;
   align-items: center;
@@ -254,18 +253,6 @@ img {
   font-weight: 600;
   border: 1px solid rgba(255, 255, 255, 0.7);
   transition: 0.3s ease;
-}
-
-.project-image-btn:hover,
-.project-name-btn:hover,
-.project-side-link:hover,
-{
-  color: #fff;
-}
-
-.project-image-btn {
-  width: 110px;
-  background: linear-gradient(90deg, #b84dff, #ff7bcf);
 }
 
 .project-name-btn {
@@ -337,7 +324,7 @@ img {
 
 /* Contact */
 .contact-hero {
-  background: url('/images/metaverse.png') no-repeat center center / cover;
+  background: url('images/metaverse.png') no-repeat center center / cover;
   padding-top: 140px;
   padding-bottom: 100px;
 }
