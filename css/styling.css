@@ -134,7 +134,7 @@ img {
 
 /* Home */
 .hero-section {
-  background: url('../images/futuristic city.jpg') no-repeat center center / cover;
+  background: url('images/futuristic city.jpg') no-repeat center center / cover;
   display: flex;
   align-items: center;
   padding: 120px 60px 60px;
@@ -174,7 +174,7 @@ img {
 
 /* Portfolio */
 .portfolio-hero {
-  background: url('../images/serene nature.jpg') no-repeat center center / cover;
+  background: url('images/serene nature.jpg') no-repeat center center / cover;
   padding-top: 120px;
   padding-bottom: 80px;
 }
@@ -386,7 +386,7 @@ img {
 
 /* Contact */
 .contact-hero {
-  background: url('../images/metaverse.png') no-repeat center center / cover;
+  background: url('images/metaverse.png') no-repeat center center / cover;
   padding-top: 140px;
   padding-bottom: 100px;
 }
