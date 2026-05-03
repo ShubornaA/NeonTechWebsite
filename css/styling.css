@@ -33,6 +33,9 @@ img {
 
 .navbar-brand {
   color: var(--pink-strong) !important;
+  font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
   font-size: 1.7rem;
   letter-spacing: 0.04em;
 }
@@ -107,8 +110,8 @@ img {
 }
 
 .corner-logo {
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
   object-fit: cover;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.22);
@@ -127,14 +130,15 @@ img {
   transition: 0.3s ease;
 }
 
-.social-icons a: hover {
+.social-icons a:hover {
   color: var(--pink-strong);
   text-shadow: 0 0 12px var(--pink-strong);
 }
 
 /* Home */
 .hero-section {
-  background: url('images/futuristic city.jpg') no-repeat center center / cover;
+  content: "©https://www.magnific.com/free-photos-vectors/gaming-city-wallpaper";
+  background: url('../images/futuristic city.jpg') no-repeat center center / cover;
   display: flex;
   align-items: center;
   padding: 120px 60px 60px;
@@ -148,12 +152,14 @@ img {
 }
 
 .hero-content h1 {
-  color: var(--pink-strong);
-  font-size: 3rem;
-  font-weight: 700;
-  margin-bottom: 30px;
-  text-shadow: 0 0 18px rgba(255, 0, 255, 0.35);
-}
+    color: var(--pink-strong);
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-shadow: 0 0 18px rgba(255, 0, 255, 0.35);
+  }
 
 .info-box {
   width: min(100%, 320px);
@@ -174,7 +180,8 @@ img {
 
 /* Portfolio */
 .portfolio-hero {
-  background: url('images/serene nature.jpg') no-repeat center center / cover;
+  content: "©https://www.magnific.com/free-photos-vectors/gaming-city-wallpaper";
+  background: url('../images/futuristic-moon_Neon.jpg') no-repeat center center / cover;
   padding-top: 120px;
   padding-bottom: 80px;
 }
@@ -211,16 +218,12 @@ img {
 }
 
 /* Projects */
-.projects-page,
 .projects-hero {
-  background: linear-gradient(180deg, #1d1d7d 0%, #17174e 100%);
-}
-
-.projects-hero {
+  content: "©https://www.magnific.com/free-photos-vectors/gaming-city-wallpaper";
+  background: url('../images/NeonCity.jpg') no-repeat center center / cover;
   padding-top: 120px;
-  padding-bottom: 80px;
+  padding-bottom: 100px;
 }
-
 .projects-main-image {
   width: 100%;
   max-width: 420px;
@@ -241,8 +244,13 @@ img {
   display: flex;
   border-radius: 12px;
   overflow: hidden;
+  font-family: "Gravitas One", serif;
+  font-weight: 400;
+  font-style: normal;
+
 }
 
+.project-image-btn,
 .project-name-btn {
   display: flex;
   align-items: center;
@@ -253,6 +261,17 @@ img {
   font-weight: 600;
   border: 1px solid rgba(255, 255, 255, 0.7);
   transition: 0.3s ease;
+}
+
+.project-image-btn:hover,
+.project-name-btn:hover
+{
+  color: #fff;
+}
+
+.project-image-btn {
+  width: 110px;
+  background: linear-gradient(90deg, #b84dff, #ff7bcf);
 }
 
 .project-name-btn {
@@ -324,7 +343,8 @@ img {
 
 /* Contact */
 .contact-hero {
-  background: url('images/metaverse.png') no-repeat center center / cover;
+  content: "©https://www.magnific.com/free-photos-vectors/gaming-city-wallpaper";
+  background: url('../images/Futuristic_dubai.jpg') no-repeat center center / cover;
   padding-top: 140px;
   padding-bottom: 100px;
 }
@@ -370,6 +390,26 @@ img {
 .contact-textarea {
   min-height: 160px;
   resize: none;
+}
+
+.transparent-table {
+  background-color: transparent !important;
+  color: white; /* important for readability */
+}
+
+.transparent-table th,
+.transparent-table td {
+  background-color: transparent !important;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.transparent-table thead {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+#map {
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 /* Mobile */
@@ -457,8 +497,12 @@ img {
 
 .modal-title {
   color: white;
+  font-family: "Gravitas One", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .btn-close {
   filter: invert(1);
 }
+
