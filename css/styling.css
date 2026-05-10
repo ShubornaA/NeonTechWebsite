@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Monoton&family=Sekuya&display=swap');
+
 :root {
   --bg-dark: rgba(10, 10, 18, 0.88);
   --white-soft: rgba(255, 255, 255, 0.82);
@@ -197,8 +199,9 @@ img {
 .portfolio-title,
 .projects-title,
 .contact-title {
+  font-family: "Monoton", sans-serif;
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 400;
   color: #fff;
   text-shadow: 0 0 16px rgba(30, 144, 255, 0.25);
 }
@@ -410,6 +413,16 @@ img {
   height: 300px;
   width: 100%;
   border-radius: 10px;
+}
+
+.contact-page .bottom-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.contact-page .bottom-left .social-icons {
+  flex-wrap: wrap;
 }
 
 /* Mobile */
