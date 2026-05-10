@@ -534,4 +534,10 @@ figcaption {
     font-size: 10px;
     border-radius: 4px;
 }
+.image-credit {
+    font-size: 10px;
+    text-align: right;
+    color: white;
+    margin-right: 10px;
+}
 
