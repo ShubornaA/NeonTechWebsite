@@ -519,3 +519,19 @@ img {
   filter: invert(1);
 }
 
+figure {
+    position: relative;
+    display: inline-block;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 2px 6px;
+    font-size: 10px;
+    border-radius: 4px;
+}
+
